@@ -1,27 +1,3 @@
-/*
-FEATURES: 
-- ✅ Swap de cualquier token ERC20 por otro token ERC20 - swapExactTokensForTokens()
-- ✅ Swap de ETH por cualquier token ERC20 - swapExactTokensForETH()
-- ✅ Añadir liquidez de cualquier token ERC20 - addLiquidity()
-- ✅ Retirar liquidez de cualquier token ERC20 - removeLiquidity()
-- ✅ Añadir liquidez de ETH - addLiquidityETH()
-- ✅ Retirar liquidez de ETH -  removeLiquidityETH()
-- ✅ Cobrar una fee por cada swap - ex 0.1%
-- ✅ Permitir al owner cambiar la fee - changeFee()
-- ✅ Permitir al owner retirar las fees acumuladas - withdrawFees()
-
-- ✅ Emitir eventos para cada acción
-- ✅ Seguridad contra reentrancy con OpenZeppelin ReentrancyGuard --> nonReentrant
-- ✅ Testing completo con fuzzing y invariants
-
-- Frontend (React + Vite + Viem + Wagmi + TailwindCSS):
-    - Interfaz sencilla para interactuar con el contrato en la red de Arbitrum
-    - Conexión con wallet (MetaMask, WalletConnect, etc)
-    - Swap de algunos tokens (ETH, LINK, UNI, DAI, WETH, DOT, ARB)
-    - Añadir y retirar liquidez ETH
-    - Ver fees acumuladas y retirarlas (sólo owner)
- */
-
 // SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.24;
